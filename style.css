@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(orange, white);
+}
+
+header{
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+
+.navegacao a{
+    margin-right: 20px;
+    font-family: 'Anton', sans-serif;
+    font-size: 2em;
+
+}
+
+.imagem-bola{
+    width: 500px;
+}
+
+.logo{
+    width: 150px;
+}
+
+.main-topo{
+    width: 1000px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-topo-descricao p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    margin: 0 0 10px 0;
+}
+
+.botao{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 2s all;
+}
+
+.botao:hover{
+    transform: scale(1.2);
+}
