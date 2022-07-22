@@ -12,15 +12,29 @@ align-items: center;
     margin-right: 20px;
     font-family: 'Anton', sans-serif;
     font-size: 2em;
+}
 
+.navegacao a:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 .imagem-bola{
     width: 500px;
+    transition: 1s all;
+}
+
+.imagem-bola:hover{
+    opacity: 0.3;
 }
 
 .logo{
     width: 150px;
+    transition: 1s all;
+}
+
+.logo:hover{
+    opacity: 0.3;
 }
 
 .main-topo{
@@ -49,4 +63,46 @@ align-items: center;
 
 .botao:hover{
     transform: scale(1.2);
+}
+
+.quem-somos{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+   }
+
+   .quem-somos p{
+    margin: 0 0 20px 0;
+   }
+
+.titulo-quem-somos{
+   padding: 22px;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+footer{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-caixa{
+    width: 250px;
+}
+
+.footer-caixa p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-footer{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    font-size: 28px;
 }
